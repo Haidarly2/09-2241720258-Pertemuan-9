@@ -74,4 +74,3 @@ class TakePictureScreenState extends State<TakepictureScreen>{
     );
   }
 }
-
