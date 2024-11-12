@@ -531,3 +531,11 @@ void main() {
 <![alt](assets/07.gif)>
 
 ## Tugas
+1. Gabungan kode-kode di atas untuk membuat aplikasi Photo Filter Carousel.
+- <![alt](assets/08.gif)>
+
+2. Jelaskan maksud `void async` pada praktikum 1?
+- Void async adalah sebuah fungsi yang dapat dipanggil secara asynchronous, artinya fungsi tersebut dapat dipanggil secara berbeda-beda dalam waktu yang sama. Fungsi ini dapat digunakan untuk melakukan operasi yang membutuhkan waktu lama, seperti mengakses database atau melakukan proses komputasi yang kompleks.
+
+3. Jelaskan fungsi dari anotasi `@immutable` dan `@override` ?
+- Anotasi @immutable digunakan dalam bahasa pemrograman Dart, khususnya dalam framework Flutter. Anotasi ini menunjukkan bahwa semua field dalam sebuah class bersifat final, artinya nilai dari field-field tersebut tidak dapat diubah setelah objek dibuat. Ini membantu dalam menciptakan objek yang tidak dapat diubah (immutable), yang dapat meningkatkan keandalan dan prediktabilitas kode. sedangkan Anotasi @override digunakan untuk menunjukkan bahwa sebuah metode dalam subclass menimpa (override) metode dengan nama yang sama dalam superclass. Ini membantu dalam memastikan bahwa metode yang dimaksud benar-benar ada dalam superclass dan menghindari kesalahan penulisan atau perubahan yang tidak disengaja.
